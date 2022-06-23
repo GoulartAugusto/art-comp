@@ -1,0 +1,97 @@
+.paintings-container {
+    display: grid;
+    background: white;
+    color: black;
+    font-weight: 200;
+    padding-top: 5rem;
+    justify-content: center;
+}
+
+.paintings-header {
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    justify-content: center;
+    color: rgb(255, 100, 100);
+    font-weight: 400;
+    border: 2px solid rgb(255, 100, 100);
+}
+
+.paintings-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+}
+
+
+.painting-item {
+    width: 240px;
+}
+
+.painting-item:hover {
+    background: black;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.paint-title {
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+    color: rgb(255, 100, 100);
+}
+
+.paint-img {
+    width: 180px;
+    margin: 1.5rem;
+}
+
+.painting-artist {
+    margin-left: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.btn-primary {
+    margin-left: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 420px) {
+
+
+    .paintings-cards {
+        gap: 2rem;
+        grid-template-columns: auto;
+
+    }
+
+    .painting-item {
+        width: 280px;
+    }
+
+    .paint-img {
+        width: 240px;
+        margin: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .paintings-cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .paintings-cards {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 2rem;
+    }
+}
+
+
