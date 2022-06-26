@@ -1,0 +1,51 @@
+.cards-title {
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.artist-card {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.artist-card img {
+    width: 200px;
+}
+
+.artist-name {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 420px) {
+    .cards-wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .artist-card img {
+        width: 140px;
+    }
+}
+
+    @media screen and (min-width: 768px) {}

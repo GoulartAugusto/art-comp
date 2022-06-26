@@ -1,39 +1,34 @@
-.paintings-container {
-    display: grid;
-    background: white;
-    color: black;
-    font-weight: 200;
-    padding-top: 5rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.paintings-header {
-    display: flex;
-    margin: 2rem 2rem 2rem 2rem;
-    justify-content: center;
-    color: rgb(255, 100, 100);
-    font-weight: 400;
-}
-
-.paintings-cards {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+.content {
+    margin: 50px;
     justify-content: space-between;
-    position: relative;
-
-    margin-right: 12rem;
-    margin-left: 12rem;
-    overflow-x: scroll;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
 }
 
 
 
+.control-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-btn button {
+    text-align: start;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+    background: rgb(255, 100, 100);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
 
 .painting-item {
-    display: inline-block;
     padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-right: 10rem;
 }
 
 .painting-item:hover {
@@ -51,8 +46,9 @@
 }
 
 .paint-img {
-    width: 140px;
+    width: 160px;
     margin: 1.5rem;
+    margin-left: 4.3rem;
 }
 
 .painting-artist {
@@ -69,6 +65,7 @@
   border-radius: 8px;
   position: relative;
   left: -1.2rem;
+  font-size: 0.8rem;
 }
 
 

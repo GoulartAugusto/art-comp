@@ -2,6 +2,9 @@
     display: flex;
     align-content: space-between;
     margin-bottom: 3rem;
+    position: absolute;
+    z-index: 100;
+    
 }
 
 .navbar-section {
