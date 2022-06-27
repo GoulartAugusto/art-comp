@@ -53,7 +53,7 @@ export default function Carousel() {
                 <h2 className='paint-title'>{e.title}</h2>
                 <p className='painting-artist'>{e.artist}</p>
                 <div className='painting_link'>  
-                <a href="#" className='btn-primary'>View-Price</a>
+                <a href={e.link} className='btn-primary'>View-Price</a>
                 </div>
               </div>
             ))}

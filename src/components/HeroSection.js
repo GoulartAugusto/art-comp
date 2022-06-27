@@ -6,7 +6,7 @@ function HeroSection() {
     <div className='hero-container'>
 
         <h1>The Great Wave</h1>
-        <button>NEW IN: MODERN ART</button>
+        <button><a href="/modern">NEW IN: MODERN ART</a></button>
     </div>
   )
 }

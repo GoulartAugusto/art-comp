@@ -9,7 +9,7 @@ function HomePoster() {
             <img src={Poster} />
         </div>
         <div className='poster_button'>
-            <button className=''>Original Posters</button>
+            <button className=''><a href="/vintage">Original Posters</a></button>
         </div>
         <div className='poster_title'>
             <h1>Discover our Original framed Posters for you</h1>

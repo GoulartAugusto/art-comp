@@ -11,7 +11,7 @@ function Footer() {
       <h2 className='footer_subscribe'>Subscribe to our newsletter</h2>
       <div>
       <input type='email' className='footer_input' placeholder='Email Address' />
-      <button className='btn-primary'>SUBSCRIBE</button>
+      <button className='btn-primary footer_button'>SUBSCRIBE</button>
       </div>
       <p className='footer_privacy'>By subscribing you agree to our <a href='#'>Privacy Policy</a></p>
       <div className='footer_socials'>

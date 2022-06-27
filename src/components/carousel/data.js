@@ -28,102 +28,121 @@ const PaintingsData = [
         title: 'Man in a Bowler Hat (1964)',
         img: Magritte01,
         artist: 'by René Magritte',
+        link: '/magritte'
     },
     {
-        title: 'O Flautista (1934)',
-        img: Portinari02,
-        artist: 'by Candido Portinari',
-
+        title: 'The Window (1992)',
+        img: Photography02,
+        artist: 'by Gabriella',
+        link: '/photography'
     },
     {
         title: 'The Lovers (1928)',
         img: Magritte02,
         artist: 'by René Magritte',
+        link: '/magritte'
 
     },
     {
         title: 'Café (1935)',
         img: Portinari01,
         artist: 'by Candido Portinari',
+        link: '/portinari'
 
     },
     {
         title: 'Mulata (1944)',
         img: DiCavalcanti01,
         artist: 'by Di Cavalcanti',
+        link: '/cavalcanti'
 
     },
     {
         title: 'The Therapist (1937)',
         img: Magritte03,
         artist: 'by René Magritte',
+        link: '/magritte'
 
     },
     {
         title: 'Figuras (1970)',
         img: DiCavalcanti02,
         artist: 'by Di Cavalcanti',
+        link: '/cavalcanti'
 
     },
     {
         title: 'The Art of Living (1972)',
         img: Magritte04,
         artist: 'by René Magritte',
+        link: '/magritte'
     },
     {
         title: 'Abaporu (1928)',
         img: Tarsila01,
         artist: 'by Tarsila do Amaral',
+        link: '/tarsila'
     },
     {
         title: 'The Moon (1928)',
         img: Tarsila02,
         artist: 'by Tarsila do Amaral',
+        link: '/tarsila'
     },
     {
         title: 'The Birds (1963)',
         img: Poster01,
         artist: 'by Vintage',
+        link: '/vintage'
     },
     {
         title: 'Ginger (2020)',
         img: Photography01,
         artist: 'by Zeineb Alishova',
-    },
-    {
-        title: 'The Window (1992)',
-        img: Photography02,
-        artist: 'by Gabriella',
-    },
-    {
-        title: 'New Way (2020)',
-        img: Photography03,
-        artist: 'by Josh Hild',
-    },
-    {
-        title: 'Dock of the Bay (1999)',
-        img: Photography04,
-        artist: 'by Tomas Anunziata',
+        link: '/photography'
     },
     {
         title: 'Great Wave (1831)',
         img: Modern01,
         artist: 'by Hokusai',
+        link: '/modern'
+    },
+    {
+        title: 'New Way (2020)',
+        img: Photography03,
+        artist: 'by Josh Hild',
+        link: '/photography'
+    },
+    {
+        title: 'Dock of the Bay (1999)',
+        img: Photography04,
+        artist: 'by Tomas Anunziata',
+        link: '/photography'
+    },
+    {
+        title: 'O Flautista (1934)',
+        img: Portinari02,
+        artist: 'by Candido Portinari',
+        link: '/portinari'
+
     },
     {
         title: 'Tutu (1936)',
         img: Modern02,
         artist: 'by Ben Enwonwu',
+        link: '/modern'
     },
     {
         title: 'Tilled Field (1923)',
         img: Modern03,
         artist: 'by Joan Miró',
+        link: '/modern'
     },
     {
         title: 'Tamilnadu (1910)',
         img: Modern04,
         artist: 'by Ilayaraja',
+        link: '/modern'
     },
     
 ]

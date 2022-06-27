@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({toggle}) {
   return (
     <div className='navbar'>
       <div className='navbar-section'>
@@ -12,8 +11,8 @@ function Navbar() {
         <ul className='navbar-links'>
 
         </ul>
-        <div className='navbar-login'>
-          <h2><a>Log in</a></h2>
+        <div className='navbar-menu'>
+          <h2><a></a></h2>
         </div>
       </div>
     </div>

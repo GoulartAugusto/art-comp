@@ -21,43 +21,43 @@ function Cards() {
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/cavalcanti">
           <img src={DiCavalcantiHome} />
           <h3 className='artist-name'>DI CAVALCANTI</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/portinari">
           <img src={PortinariHome} />
           <h3 className='artist-name'>CANDIDO PORTINARI</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/tarsila">
           <img src={TarsilaHome} />
           <h3 className='artist-name'>TARSILA DO AMARAL</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/vintage">
           <img src={PosterHome} />
           <h3 className='artist-name'>VINTAGE</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/photography">
           <img src={PhotographyHome} />
           <h3 className='artist-name'>Photography</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/modern">
           <img src={ModernHome} />
           <h3 className='artist-name'>MODERN ART</h3>
       </a>
         </div>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/contemporany">
           <img src={ContemporanyHome} />
           <h3 className='artist-name'>CONTEMPORANY ART</h3>
       </a>

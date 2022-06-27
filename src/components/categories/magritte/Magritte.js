@@ -34,7 +34,8 @@ const data = [
 
 function Magritte() {
   return (
-<div className='sculptures-container'>
+
+    <div className='sculptures-container'>
       <h1 className='sculptures-header'>Renè Magritte</h1>
       <div className='sculptures-cards'>
     {data.map((e) => {
