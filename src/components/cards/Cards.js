@@ -12,10 +12,10 @@ import './Cards.css'
 function Cards() {
   return (
     <>
-            <h1 className='cards-title'>Find a new Art for your home</h1>
+    <h1 className='cards-title'>Find new Art for your home</h1>
     <div className='cards-wrapper'>
         <div className='artist-card'>
-      <a href="#">
+      <a href="/magritte">
           <img src={MagritteHome} />
           <h3 className='artist-name'>RENÉ MAGRITTE</h3>
       </a>

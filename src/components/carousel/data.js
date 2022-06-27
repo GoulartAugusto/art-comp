@@ -10,7 +10,15 @@ import TarsilaHome from '../../images/tarsila-home.jpg';
 import Tarsila01 from '../../images/tarsila-abaporu.jpg';
 import Tarsila02 from '../../images/tarsila-moon.jpg';
 import Poster01 from '../../images/poster-birds.jpeg';
-import Photography01 from '../../images/photography-zeyneb-alishova.jpg'
+import Photography01 from '../../images/photography-zeyneb-alishova.jpg';
+import Photography02 from '../../images/photography-gabriella.jpg';
+import Photography03 from '../../images/photography-josh-hild.jpg';
+import Photography04 from '../../images/photography-tomas-anunziata.jpg';
+import Modern01 from '../../images/modern-hokusai-greatwave.jpg';
+import Modern02 from '../../images/modern-ben-enwonwu-tutu.jpg';
+import Modern03 from '../../images/modern-miro-tilledfield.jpg';
+import Modern04 from '../../images/modern-Ilayaraja-tamilnadu.jpg';
+
 
 
 
@@ -82,6 +90,42 @@ const PaintingsData = [
         img: Photography01,
         artist: 'by Zeineb Alishova',
     },
+    {
+        title: 'The Window (1992)',
+        img: Photography02,
+        artist: 'by Gabriella',
+    },
+    {
+        title: 'New Way (2020)',
+        img: Photography03,
+        artist: 'by Josh Hild',
+    },
+    {
+        title: 'Dock of the Bay (1999)',
+        img: Photography04,
+        artist: 'by Tomas Anunziata',
+    },
+    {
+        title: 'Great Wave (1831)',
+        img: Modern01,
+        artist: 'by Hokusai',
+    },
+    {
+        title: 'Tutu (1936)',
+        img: Modern02,
+        artist: 'by Ben Enwonwu',
+    },
+    {
+        title: 'Tilled Field (1923)',
+        img: Modern03,
+        artist: 'by Joan Miró',
+    },
+    {
+        title: 'Tamilnadu (1910)',
+        img: Modern04,
+        artist: 'by Ilayaraja',
+    },
+    
 ]
 
 export default PaintingsData;

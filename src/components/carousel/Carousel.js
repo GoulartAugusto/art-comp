@@ -20,7 +20,7 @@ export default function Carousel() {
             {
               breakpoint: 1024,
               settings: {
-               slidesToShow: 2,
+               slidesToShow: 3,
               }
             },
             {
@@ -34,6 +34,7 @@ export default function Carousel() {
 
       return (
         <div className='content'>
+            <h4 className='title'>RECENT ARRIVALS</h4>
           <div className='control-btn'>
             <button onClick={sliderRef?.slickPrev}>
               <FaChevronLeft />

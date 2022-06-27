@@ -1,0 +1,123 @@
+.footer {
+
+}
+
+.footer_top {
+    background: rgb(100, 100, 100);
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}   
+
+.footer_subscribe {
+    font-weight: 400;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+}
+
+.footer_input {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    width: 280px;
+}
+
+.footer_privacy {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer_privacy > a {
+    color: white;
+}
+
+.footer_socials {
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+    align-items: center;
+    letter-spacing: 2rem;
+}
+
+.footer_mid {
+    background: rgb(255, 100, 100);
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.75rem;
+}
+
+.footer_bottom {
+    margin-top: 2rem;
+    color: black;
+    text-decoration: none;    
+}
+
+.footer_lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    line-height: 2rem;
+}
+
+.first_list {
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.first_list li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.second_list {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.second_list li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.thirt_list {
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.thirt_list li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_contact {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer_contact > h4 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.footer_contact > h2 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.footer_rights {
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+}
+
+.footer_rights > a {
+    color: rgb(255, 100, 100);
+}

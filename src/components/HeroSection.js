@@ -4,7 +4,9 @@ import './HeroSection.css'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>See what's new here</h1>
+
+        <h1>The Great Wave</h1>
+        <button>NEW IN: MODERN ART</button>
     </div>
   )
 }

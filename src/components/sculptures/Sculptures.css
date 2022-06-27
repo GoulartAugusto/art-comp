@@ -10,10 +10,9 @@
 .sculptures-header {
     display: flex;
     margin: 2rem 2rem 2rem 2rem;
-    justify-content: center;
     color: rgb(255, 100, 100);
     font-weight: 400;
-    border: 2px solid rgb(255, 100, 100);
+    border-bottom: 2px solid rgb(255, 100, 100);
 }
 
 .sculptures-cards {

@@ -36,12 +36,6 @@
     padding-bottom: 2rem;
 }
 
-.painting-item:hover {
-    background: black;
-    color: white;
-    transition: 0.4s ease-in-out;
-}
-
 .paint-title {
     font-weight: 400;
     font-size: 1.2rem;

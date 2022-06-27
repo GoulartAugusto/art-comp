@@ -3,11 +3,13 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 70vh;
 }
 
-
-
+.title {
+    text-align: left;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
 .control-btn {
     display: flex;
     justify-content: space-between;
@@ -31,11 +33,7 @@
     margin-right: 10rem;
 }
 
-.painting-item:hover {
-    background: black;
-    color: white;
-    transition: 0.4s ease-in-out;
-}
+
 
 .paint-title {
     font-weight: 400;
@@ -46,7 +44,7 @@
 }
 
 .paint-img {
-    width: 160px;
+    width: 200px;
     margin: 1.5rem;
     margin-left: 4.3rem;
 }
